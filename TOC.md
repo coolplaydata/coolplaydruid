@@ -4,7 +4,7 @@
   * Druid 基本概念
   * 应用场景和案例
 
-* Druid 架构
+* [Druid 架构](./arch/druid-arch.md)
   * Realtime
     * Indexing Service
   * Coordinator
