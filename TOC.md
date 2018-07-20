@@ -6,8 +6,8 @@
 
 * [Druid 架构](./arch/druid-arch.md)
   * Realtime
-    * Indexing Service
-      * [任务提交](./arch/indexing-service/indexing-service.md)
+    * [Indexing Service](./arch/indexing-service/indexing-service.md)
+      * [任务提交](./arch/indexing-service/indexing-service-submit-task.md)
   * Coordinator
   * Historical
   * Broker
