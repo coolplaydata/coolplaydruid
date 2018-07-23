@@ -17,7 +17,7 @@
   * 实时
     * Kafka Indexing Service
 
-* 查询
+* [查询](./query/query-module-overview.md)
   * 查询的内部过程
   * Timeseries
   * TopN
@@ -35,6 +35,7 @@
     * Granularities
     * DimensionSpecs
     * Context
+  * SQL  
 
 * Druid 数据结构和算法
   * Druid 数据文件
