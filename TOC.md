@@ -8,6 +8,7 @@
   * Realtime
     * [Indexing Service](./arch/indexing-service/indexing-service.md)
       * [任务提交](./arch/indexing-service/indexing-service-submit-task.md)
+      * [任务执行](./arch/indexing-service/indexing-service-run-task.md)
   * Coordinator
   * Historical
   * Broker
