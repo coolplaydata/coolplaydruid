@@ -19,7 +19,7 @@
     * Kafka Indexing Service
 
 * [查询](./query/query-module-overview.md)
-  * 查询的内部过程
+  * [查询的内部过程](./query/query-internal-procedure.md)
   * Timeseries
   * TopN
   * GroupBy
