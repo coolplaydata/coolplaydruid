@@ -1,6 +1,6 @@
 # Druid查询之：查询概述
 
-Druid的查询使用的是HTTP REST方式请求查询节点(Broker、Historical、or Realtime)。查询以JSON表示,并且每一个查询节点都会暴露相同的REST查询接口。对于正常的Druid操作，查询应该向broker请求，由broker节点转发至Historical或Realtime节点。可以像如下的方式发送到查询节点：
+Druid的查询使用的是`HTTP REST`方式请求查询节点(`Broker`、`Historical`、or `Realtime`)。查询以JSON表示,并且每一个查询节点都会暴露相同的REST查询接口。对于正常的Druid操作，查询应该向`broker`请求，由broker节点转发至Historical或Realtime节点。可以像如下的方式发送到查询节点：
 ```
 curl -X POST '<queryable_host>:<port>/druid/v2/?pretty' -H 'Content-Type:application/json' -d @<query_json_file>
 ```
@@ -15,7 +15,7 @@ Druid的原生查询是低阶的，被设计为轻量级并且非常快速的完
 
 ## 查询类型
 
-基本的查询可分为三类：
+基本的查询可分为三类(``聚合查询``、``元数据查询``、``搜索查询``)：
 
 ### 聚合查询(Aggregation Queries)
 - [Timeseries](/TODO)
