@@ -15,5 +15,5 @@ Middle Manager 和 Overlord 可以在同一节点或不同节点上，但 Middle
 架构图中只描述了基本运行原理，下面将从源码上介绍 Indexing Service 的主要实现，内容分为三部分：
 
 - [任务提交](./indexing-service-submit-task.md)
-- [任务的执行](/TODO)
+- [任务的执行](./indexing-service-run-task.md)
 - [任务的结束](/TODO)

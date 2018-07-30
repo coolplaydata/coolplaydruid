@@ -493,7 +493,7 @@ taskRunner 的实现是 TaskRunner 接口类型，根据 `druid.indexer.runner.t
 从上面的代码中，我们已经可以知道 announceTask() 就是进行任务通告的地方了。
 
 这部分的操作主要分为几部分：
-- 首先在 Zookeeper 的 `/druid/indexer/tasks/foo_worker/` 目录下新建节点，节点内容是 Task 的 Json 序列化结果。
+- 首先在 Zookeeper 的 `/druid/indexer/tasks/${middleManagerHost}/` 目录下新建节点，节点内容是 Task 的 Json 序列化结果。
 - 我当前 task 从 `pendingTasks` 移除， 然后添加到 `runningTasks`。
 - 通过 statusLock 等待 Zookeeper 任务节点的更新， 如果超过配置的指派任务超时时间， 则通过 taskComplete() 结束任务。
 
@@ -559,6 +559,6 @@ taskRunner 的实现是 TaskRunner 接口类型，根据 `druid.indexer.runner.t
   }
 ```
 
-# 总结
+# Next
 
 至此，我们已经把从客户端提交任务开始到通告任务的主流程源码走了一遍 ， 接下来就是 Worker 获取任务通告和执行。
