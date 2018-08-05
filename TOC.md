@@ -19,8 +19,8 @@
   * 实时
     * [Kafka Indexing Service](/TODO)
 
-* 查询
-  * 查询的内部过程
+* [查询](./query/query-module-overview.md)
+  * [查询的内部过程](./query/query-internal-procedure.md)
   * Timeseries
   * TopN
   * GroupBy
@@ -37,6 +37,7 @@
     * Granularities
     * DimensionSpecs
     * Context
+  * SQL  
 
 * Druid 数据结构和算法
   * Druid 数据文件
