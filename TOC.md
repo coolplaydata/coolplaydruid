@@ -9,6 +9,7 @@
     * [Indexing Service](./arch/indexing-service/indexing-service.md)
       * [任务提交](./arch/indexing-service/indexing-service-submit-task.md)
       * [任务执行](./arch/indexing-service/indexing-service-run-task.md)
+      * [任务结束和清理](./arch/indexing-service/indexing-service-end-task.md)
   * Coordinator
   * Historical
   * Broker
@@ -16,7 +17,7 @@
 * 数据摄取 (Data Ingestion )
   * 批量
   * 实时
-    * Kafka Indexing Service
+    * [Kafka Indexing Service](/TODO)
 
 * 查询
   * 查询的内部过程

@@ -121,7 +121,7 @@ notices 是个 `BlockingQueue` 队列， 把新任务追加到这个队列后，
 
 否则：
 
-- 更新 Zookeeper 中的任务状态节点内容为 `运行中`， 路径是 `/druid/indexer/status/${middleManagerHost}/${task_status_node}`
+- 更新 Zookeeper 中的任务状态节点内容为 `运行中`， 路径是 `/druid/indexer/status/${middleManagerHost}/${task_status_node}`， 我们暂且称之为 `taskStatusZNode` 。
 - 删除 task 在任务发现目录下的对应节点。
 - `taskRunner.run(task)` 将启动一个 JVM 来运行接收到的任务。
 - `addRunningTask()` 将记录 task 到 `running` （Map<String, TaskDetails>） 中，并定义任务异步执行结果的回调处理， 主要是将 task 和 result 封装为 `StatusNotice`， 加入到 notices 队列中。

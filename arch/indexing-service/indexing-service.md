@@ -16,4 +16,4 @@ Middle Manager 和 Overlord 可以在同一节点或不同节点上，但 Middle
 
 - [任务提交](./indexing-service-submit-task.md)
 - [任务的执行](./indexing-service-run-task.md)
-- [任务的结束](/TODO)
+- [任务结束和清理](./indexing-service-end-task.md)
