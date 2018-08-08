@@ -21,8 +21,7 @@
 
 `1~3` 是初始化操作，执行一次即可。在修改前请先执行步骤 `4` 同步最新的修改（减少冲突），然后执行 `5~7` 既可。
 
-#####
 
-Contributors(排名不分先后):     
+## Contributors(排名不分先后):     
 [@niko2010](https://github.com/niko2010)  
 [@wlayne](https://github.com/wlayne) 
