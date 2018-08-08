@@ -20,3 +20,9 @@
 7. 登录 Github 在你首页可以看到一个 `pull request` 按钮，点击它，填写一些说明信息，然后提交即可。
 
 `1~3` 是初始化操作，执行一次即可。在修改前请先执行步骤 `4` 同步最新的修改（减少冲突），然后执行 `5~7` 既可。
+
+#####
+
+Contributor:   
+[@niko2010](https://github.com/niko2010)  
+[@wlayne](https://github.com/wlayne) 
