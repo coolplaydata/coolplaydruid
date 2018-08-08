@@ -23,6 +23,6 @@
 
 #####
 
-Contributor:   
+Contributor(排名不分先后):     
 [@niko2010](https://github.com/niko2010)  
 [@wlayne](https://github.com/wlayne) 
