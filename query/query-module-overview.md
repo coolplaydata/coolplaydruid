@@ -18,7 +18,7 @@ Druid的原生查询是低阶的，被设计为轻量级并且非常快速的完
 基本的查询可分为三类(`聚合查询`、`元数据查询`、`搜索查询` )：
 
 ### 聚合查询(Aggregation Queries)
-- [Timeseries](/TODO)
+- [Timeseries](./query-timeseries.md)
 - [TopN](/TODO)
 - [GroupBy](/TODO)
 
