@@ -4,6 +4,10 @@ Druid查询部分源码入口为`processing`模块，`io.druid.query`包
 
 Druid接收Http请求部分的源码在`server`模块，`io.druid.server`包
 
+查询节点接收Client的查询请求,根据查询中指定的`interval`找到相关的`Segment`，然后找出包含这些`Segment`的实时节点和历史节点。查询节点将请求分发到这些节点，实时与历史节点进行查询处理后返回结果。查询节点将结果合并返回
+
+![](./query-01.jpg)
+
 ## 查询请求
 
 当我们用HTTP POST方式发出请求后，druid接收请求的服务代码在`io.druid.server`包中的`QueryResource`类
